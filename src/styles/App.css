@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #bb9cec;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 17px;
+}
+
+
+.section {
+  padding-left: 20px;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  margin-top: 5px;
+}
+
+img {
+  border-radius: 150px;
+}
+
+.container_redes {
+  width: 100%;
+}
+
+ul.lista_redes {
+  height: 35px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+}
+
+h1 {
+  color: #392e5c;
+  font-size: 45px;
+  margin: 10px 0;
+}
+h2{
+  margin: 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+  }
+
+  .img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+  }
+
+  h1 {
+    color: #392e5c;
+    font-size: 19px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .container_principal {
+
+    font-size: 12px;
+
+  }
+}
