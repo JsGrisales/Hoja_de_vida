@@ -12,10 +12,10 @@ export default function Aside() {
                     <img src={fondo} alt="fondo" />
                 </div>
                 <div className="informacion_contacto">
+                <h3>CONTACTO</h3>
                     <ul>
-                        <h2>PÁGINA DE CONTACTO</h2>
                         <li>
-                            <b>WhatsApp:</b> 3242513097
+                            <b>WhatsApp:</b> (+57)3242513097
                         </li>
                         <li>
                             <b>Email:</b> js.grisales03@gmail.com
@@ -52,19 +52,7 @@ export default function Aside() {
                         <li>Colombiano</li>
                     </ul>
                 </div>
-                <div>
-                    <h3>HABILIDADES DE DESARROLLO</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS/Bootstrap/Sass</li>
-                        <li>JavaScript/TypeScript</li>
-                        <li>React</li>
-                        <li>Git y GitHub</li>
-                        <li>Bases de datos SQL</li>
-                        <li>Bubble</li>
-                        <li>SCRUM</li>
-                    </ul>
-                </div>
+                
                 <div>
                     <h3>COMPETENCIAS</h3>
                     <ul>
@@ -79,7 +67,7 @@ export default function Aside() {
                     <h3>IDIOMAS</h3>
                     <ul>
                         <li>Español nativo/competencia profesional</li>
-                        <li>Inglés A2</li>
+                        <li>Inglés B1</li>
                     </ul>
                 </div>
                 <div>

@@ -4,6 +4,7 @@ import Aside from './components/Aside.js';
 import { ExpLaboral } from "./components/ExpLaboral";
 import { Formacion } from "./components/Formacion";
 import { Separator } from "./components/Separator";
+import Skills from "./components/Skills";
 
 
 
@@ -35,6 +36,7 @@ export default function Curriculum() {
                 <div className="container-form-exp">
                     <ExpLaboral />
                     <Formacion />
+                    <Skills/>
                 </div>
             </section>
         </>
