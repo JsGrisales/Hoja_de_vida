@@ -1,10 +1,10 @@
 .aside {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding: 20px;
     margin-top: 20px;
     margin-left: 20px;
-    height: 1150px;
+    height: 980px;
     background-color: #392e5c;
     color: white;
     -webkit-box-shadow: 8px 8px 2px 0px #000000;
@@ -20,7 +20,7 @@ ul {
         font-size: 13px;
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
+        padding: 5px;
         margin-top: 0px;
         margin-left: 0px;
         width: 50%;
