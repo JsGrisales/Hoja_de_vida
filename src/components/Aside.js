@@ -2,7 +2,7 @@ import React from 'react';
 import fondo from "../Assets/fondo.jpg";
 import github from "../Assets/Icons/github.png";
 import linkedin from "../Assets/Icons/linkedin.png";
-import '../styles/Aside.css'
+import '../styles/Aside.scss'
 
 export default function Aside() {
     return (

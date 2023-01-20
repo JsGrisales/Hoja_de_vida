@@ -1,5 +1,4 @@
 import React from "react";
-import '../styles/Certificaciones.css';
 import BtnBack from '../components/BtnBack'
 import gh from '../Assets/certificaciones/Grasshopper/Fundamentos de codificación.png';
 import ghII from '../Assets/certificaciones/Grasshopper/Fundamentos de codificación II.png';
@@ -15,7 +14,7 @@ import minTic from '../Assets/certificaciones/Programacion/MinTIC.png';
 import ts from '../Assets/certificaciones/Programacion/Typescript.png';
 import htmlCss from '../Assets/certificaciones/Udemy/HTML5&CSS3.png';
 import html from '../Assets/certificaciones/Udemy/HTML5.jpg';
-import '../styles/Certificaciones.css'
+import '../styles/Certificaciones.scss'
 
 
 export default function Certificaciones() {

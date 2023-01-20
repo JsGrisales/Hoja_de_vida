@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/BtnBack.css'
+import '../styles/BtnBack.scss'
 import {Link} from "react-router-dom";
 
 

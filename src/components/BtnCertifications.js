@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import '../styles/Btn_certificationes.css';
+import '../styles/Btn_certificaciones.scss';
 
 
 export default function BtnCertifications() {
