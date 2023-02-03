@@ -8,13 +8,15 @@ import Skills from "./components/Skills";
 
 
 
+
 export default function Curriculum() {
     return (
         <>
             <Aside />
             <section className="section">
-                <h1>Johan Sebastián Grisales Grisales</h1>
+                <h1>Sebastián Grisales</h1>
                 <BtnCertifications />
+                
                 <Separator/>
                 <div className="perfil_profesional">
                 <h2>PERFIL PROFESIONAL</h2>
