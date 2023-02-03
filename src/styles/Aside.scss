@@ -16,13 +16,57 @@ ul {
     margin: 0;
 }
 
+@media only screen and (max-width: 900px) {
+    .aside {
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 60%;
+        height: 600px;
+        color: white;
+        -webkit-box-shadow: 8px 8px 2px 0px #000000;
+        box-shadow: 8px 8px 2px 0px #000000;
+    }
+
+    
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0em;
+        margin-block-end: 10px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 6px;
+    }
+
+    .icono_redes {
+        width: 30px;
+        height: 30px;
+    }
+
+    ul.lista_redes {
+
+        width: 200px;
+        height: 35px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .aside {
         font-size: 13px;
         display: flex;
         flex-direction: column;
         padding: 15px;
-        margin-top: 10x;
+        margin-top: 10px;
         margin-left: 0px;
         width: 85%;
         height: 600px;
