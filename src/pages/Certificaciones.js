@@ -22,7 +22,7 @@ export default function Certificaciones() {
         <>
 
             <div className="container_certificacion">
-                <BtnBack></BtnBack>
+                <BtnBack/>
                 <h1>CERTIFICACIONES</h1>
                 <div className="parent">
                     <div className="div1">

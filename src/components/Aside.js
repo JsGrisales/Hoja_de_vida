@@ -3,25 +3,29 @@ import fondo from "../Assets/fondo.jpg";
 import github from "../Assets/Icons/github.png";
 import linkedin from "../Assets/Icons/linkedin.png";
 import '../styles/Aside.scss'
+import PDFDownloadButton from './PDFDownloadButton';
+import { useTranslation } from "react-i18next";
 
 export default function Aside() {
+    const { t } = useTranslation()
     return (
         <>
             <aside className="aside">
+            
                 <div className="img">
                     <img src={fondo} alt="fondo" />
                 </div>
                 <div className="informacion_contacto">
-                <h3>CONTACTO</h3>
+                <h3>{t('curriculum.contacto')}</h3>
                     <ul>
                         <li>
-                            <b>WhatsApp:</b> (+57)3242513097
+                            <b>{t('curriculum.WhatsApp')}</b> (+57)3242513097
                         </li>
                         <li>
-                            <b>Email:</b> js.grisales03@gmail.com
+                            <b>{t('curriculum.Correo')}</b> js.grisales03@gmail.com
                         </li>
                         <li>
-                            <b>Redes:</b>
+                            <b>{t('curriculum.Redes')}:</b>
                             <div className="container_redes">
                                 <ul className="lista_redes">
                                     <li>
@@ -40,43 +44,44 @@ export default function Aside() {
                     </ul>
                 </div>
                 <div>
-                    <h3>FECHA/LUGAR DE NACIMIENTO</h3>
+                    <h3>{t('curriculum.FECHA/LUGAR DE NACIMIENTO')}</h3>
                     <ul>
-                        <li>13 de Marzo de 1995</li>
-                        <li>Pereira</li>
+                        <li>{t('curriculum.13 de Marzo de 1995')}</li>
+                        <li>{t('curriculum.Pereira')}</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>NACIONALIDAD</h3>
+                    <h3>{t('curriculum.NACIONALIDAD')}</h3>
                     <ul>
-                        <li>Colombiano</li>
+                        <li>{t('curriculum.Colombiano')}</li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h3>COMPETENCIAS</h3>
+                    <h3>{t('curriculum.COMPETENCIAS')}</h3>
                     <ul>
-                        <li>Comunicación asertiva</li>
-                        <li>Trabajo en equipo</li>
-                        <li>Buenas relaciones sociales</li>
-                        <li>Gran capacidad de aprender</li>
-                        <li>Escucha activa</li>
+                        <li>{t('curriculum.Comunicación asertiva')}</li>
+                        <li>{t('curriculum.Trabajo en equipo')}</li>
+                        <li>{t('curriculum.Buenas relaciones sociales')}</li>
+                        <li>{t('curriculum.Gran capacidad de aprender')}</li>
+                        <li>{t('curriculum.Escucha activa')}</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>IDIOMAS</h3>
+                    <h3>{t('curriculum.IDIOMAS')}</h3>
                     <ul>
-                        <li>Español nativo/competencia profesional</li>
-                        <li>Inglés B1</li>
+                        <li>{t('curriculum.Español nativo/competencia profesional')}</li>
+                        <li>{t('curriculum.Inglés B1')}</li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Licencia de conducción</h3>
+                    <h3>{t('curriculum.Licencia de conducción')}</h3>
                     <ul>
-                        <li>Moto A2</li>
-                        <li>Carro B1</li>
+                        <li>{t('curriculum.Moto A2')}</li>
+                        <li>{t('curriculum.Carro B1')}</li>
                     </ul>
                 </div>
+                <PDFDownloadButton/>
             </aside>
         </>
     )

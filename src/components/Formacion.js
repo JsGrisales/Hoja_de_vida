@@ -1,25 +1,28 @@
 import React from 'react'
+import { useTranslation } from "react-i18next";
+import '../styles/Formacion.scss'
 
 export const Formacion = () => {
+    const { t } = useTranslation()
     return (
         <>
             <div className="formacion">
-                <h2>FORMACIÓN</h2>
+                <h2>{t('curriculum.formacion')}</h2>
                 <ul>
                     <li>
-                        <h3>Diseño web y social media</h3>
-                        <p>febrero del 2022 - junio del 2022</p>
-                        <p>American bussines school</p>
+                        <h3>{t('curriculum.Diseño web y social media')}</h3>
+                        <p>{t('curriculum.dwsm-fecha')}</p>
+                        <p>{t('curriculum.dwsm-lugar')}</p>
                     </li>
                     <li>
-                        <h3>Diplomado en programación</h3>
-                        <p>Marzo 2021 - noviembre 2021</p>
-                        <p>MinTic</p>
+                        <h3>{t('curriculum.Diplomado en programacion')}</h3>
+                        <p>{t('curriculum.dp-fecha')}</p>
+                        <p>{t('curriculum.dp-lugar')}</p>
                     </li>
                     <li>
-                        <h3>Licenciado en música</h3>
-                        <p>Enero 2013 - Abril 2019</p>
-                        <p>Universidad Tecnológica de Pereira</p>
+                        <h3>{t('curriculum.Licenciado en musica')}</h3>
+                        <p>{t('curriculum.lm-fecha')}</p>
+                        <p>{t('curriculum.lm-lugar')}</p>
                     </li>
                 </ul>
             </div>

@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import '../styles/Btn_certificaciones.scss';
+import { useTranslation } from "react-i18next";
 
 
 export default function BtnCertifications() {
+    const { t } = useTranslation()
     return (
         <div className="cursos">
             <button className="continue-application">
@@ -18,7 +20,7 @@ export default function BtnCertifications() {
                         <div className="paper"></div>
                     </div>
                 </div>
-                <Link style={{all: 'unset', color:'white'}}to="/certificaciones">certificaciones</Link>
+                <Link style={{all: 'unset', color:'white'}}to="/certificaciones">{t('curriculum.btn-certificaciones')}</Link>
             </button>
         </div>
 

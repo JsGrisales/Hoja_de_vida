@@ -1,0 +1,36 @@
+.btnLan {
+    display: table-cell;
+    vertical-align: middle;
+    border: none;
+}
+
+.btnLan {
+    color: white;
+    margin: auto;
+    width: 50px;
+    line-height: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #031d67;
+    box-shadow: 0px 15px 18px -6px rgba(35, 22, 214, 0.65);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.btnLan:hover {
+    background-color: #051749;
+    box-shadow: 0px 22px 19px -8px rgba(16, 8, 119, 0.65);
+    transform: scale(1.02, 1.02);
+}
+
+.btnLan:active {
+    background-color: #051749;
+    box-shadow: 0px 12px 18px -4px rgba(7, 4, 51, 0.65);
+    transform: scale(0.95, 0.95);
+    transition: all 0.4s -0.125s;
+}

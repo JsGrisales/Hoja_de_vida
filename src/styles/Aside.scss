@@ -3,12 +3,13 @@
     flex-direction: column;
     padding: 20px;
     margin-top: 20px;
-    margin-left: 20px;
-    height: 800px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 870px;
     background-color: #A68069;
     color: white;
     -webkit-box-shadow: 8px 8px 2px 8px #000000;
-    box-shadow: 8px 8px 2px 0px #505050e3;
+    box-shadow: -8px 8px 3px 1px #505050e3;
     border-radius: 10px;
 }
 
@@ -18,17 +19,18 @@ ul {
 
 @media only screen and (max-width: 900px) {
     .aside {
-        font-size: 13px;
+        font-size: 15px;
         display: flex;
         flex-direction: column;
         padding-left: 30px;
         margin-top: 20px;
+        margin-bottom: 20px;
         margin-left: 0px;
-        width: 60%;
-        height: 600px;
+        width: 70%;
+        height: 690px;
         color: white;
         -webkit-box-shadow: 8px 8px 2px 0px #000000;
-        box-shadow: 8px 8px 2px 0px #000000;
+        box-shadow: -8px 8px 3px 1px #505050e3;
     }
 
     
@@ -68,11 +70,13 @@ ul {
         padding: 15px;
         margin-top: 10px;
         margin-left: 0px;
+        margin-bottom: 20px;
         width: 85%;
-        height: 600px;
+        height: 680px;
         color: white;
         -webkit-box-shadow: 8px 8px 2px 0px #000000;
-        box-shadow: 8px 8px 2px 0px #000000;
+        box-shadow: -8px 8px 3px 1px #505050e3;
+        
     }
 
     
